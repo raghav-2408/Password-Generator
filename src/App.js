@@ -27,7 +27,9 @@ function App() {
   }
   function clear() {
     let ele = document.getElementById("input_text");
+    let ele1 = document.getElementById("n2");
     ele.value = "";
+    ele1.value = "";
     console.log("clear");
   }
   return (
