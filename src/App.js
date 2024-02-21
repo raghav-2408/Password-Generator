@@ -16,7 +16,7 @@ function App() {
     let ele = document.getElementById("input_text");
     let size = document.getElementById("n2");
     const char =
-      "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$ %^&*()?/";
+      "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()?/";
     let generatedPass = "";
     for (let i = 0; i < size.value; i++) {
       let randomIndex = Math.floor(Math.random() * char.length);
